@@ -1,0 +1,81 @@
+{
+  "modelo_seleccionado": "Arbol_Decision",
+  "target": "demanda_clase",
+  "feature_columns": [
+    "ano",
+    "mes",
+    "ciudad",
+    "zona_comercial",
+    "tipo_prenda",
+    "cliente_principal",
+    "tipo_cliente",
+    "color",
+    "estilo",
+    "motivo_comercial"
+  ],
+  "columnas_dataset": [
+    "id",
+    "ano",
+    "mes",
+    "ciudad",
+    "zona_comercial",
+    "tipo_prenda",
+    "cliente_principal",
+    "tipo_cliente",
+    "color",
+    "estilo",
+    "motivo_comercial",
+    "demanda_clase"
+  ],
+  "total_registros": 8000,
+  "total_prendas": 13,
+  "estilos": [
+    "artesanal",
+    "casual",
+    "formal",
+    "funcional",
+    "urbano"
+  ],
+  "periodo": "2024-01 a 2026-05",
+  "criterio_seleccion": "40% F1-macro holdout + 60% F1-macro validación temporal",
+  "metodologia_accuracy_principal": "Holdout estratificado 80/20, random_state=42",
+  "metodologia_validacion_temporal": "Entrenamiento con años anteriores y prueba con el último año disponible",
+  "metricas_holdout": [
+    {
+      "modelo": "Arbol_Decision",
+      "accuracy": 0.9481,
+      "precision": 0.9498,
+      "recall": 0.9481,
+      "f1_score": 0.9483,
+      "precision_macro": 0.9384,
+      "recall_macro": 0.9424,
+      "f1_macro": 0.9396
+    }
+  ],
+  "metricas_validacion_temporal": {
+    "modelo": "Arbol_Decision",
+    "accuracy": 0.9243,
+    "precision": 0.9241,
+    "recall": 0.9243,
+    "f1_score": 0.9241,
+    "precision_macro": 0.9063,
+    "recall_macro": 0.9038,
+    "f1_macro": 0.9049
+  },
+  "parametros_modelo": {
+    "ccp_alpha": 0.0,
+    "class_weight": "balanced",
+    "criterion": "gini",
+    "max_depth": null,
+    "max_features": null,
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 2,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "random_state": 42,
+    "splitter": "best"
+  },
+  "nota": "Modelo final seleccionado mediante comparación reproducible entre Regresión Logística, SVM, Árbol de Decisión y Random Forest. Las señales digitales y reglas mensuales se integran después de la predicción histórica y no forman parte del entrenamiento principal."
+}

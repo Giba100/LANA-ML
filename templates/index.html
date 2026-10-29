@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lana ML | Sistema predictivo</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}?v=20260825-trends-plan-signals">
+</head>
+<body class="app-page">
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <img src="{{ url_for('static', filename='img/logo_lana.svg') }}" alt="Logo Lana ML">
+        <div>
+          <strong>Lana ML</strong>
+          <span>Predicción inteligente</span>
+        </div>
+      </div>
+
+      <nav class="nav-menu" aria-label="Paneles del sistema">
+        <button class="nav-item active" data-section="inicio"><span class="nav-ico">⌂</span>Inicio</button>
+        <button class="nav-item" data-section="prediccion"><span class="nav-ico">◈</span>Predicción general</button>
+        <button class="nav-item" data-section="color-estilo"><span class="nav-ico">↗</span>Análisis de tendencias</button>
+        <button class="nav-item" data-section="historial"><span class="nav-ico">▦</span>Historial</button>
+        <button class="nav-item" data-section="dashboard"><span class="nav-ico">▥</span>Dashboard</button>
+        <button class="nav-item" data-section="senales"><span class="nav-ico">⌘</span>Señales digitales</button>
+      </nav>
+
+
+      <a class="logout-link" href="{{ url_for('logout') }}"><span>⏻</span> Cerrar sesión</a>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Panel web</p>
+          <h1 id="pageTitle">Inicio</h1>
+        </div>
+        <div class="user-pill"><span class="user-medallion">◉</span><span>Administrador<br><strong>{{ usuario }}</strong></span><span class="user-avatar">●</span></div>
+      </header>
+
+      <section id="inicio" class="section active-section">
+        <article class="home-banner home-banner-exact" aria-label="Producción textil Lana ML">
+          <img class="home-hero-image" src="{{ url_for('static', filename='media/ui/home_hero_banner_final.webp') }}" alt="Producción textil: hilos, maquinaria y prendas terminadas">
+          <div class="home-hero-copy">
+            <span class="hero-kicker">LANA ML · PRODUCCIÓN TEXTIL</span>
+            <h2>Bienvenido a Lana ML</h2>
+            <p>Panel de predicción comercial para la producción textil</p>
+          </div>
+        </article>
+
+        <div class="metric-grid home-metrics">
+          <article class="metric-card"><span class="metric-icon">▣</span><div><strong>{{ "{:,}".format(registros) }}</strong><small>Registros históricos</small></div></article>
+          <article class="metric-card"><span class="metric-icon">◇</span><div><strong>{{ prendas }}</strong><small>Prendas del catálogo</small></div></article>
+          <article class="metric-card"><span class="metric-icon">●</span><div><strong>{{ colores }}</strong><small>Colores considerados</small></div></article>
+          <article class="metric-card"><span class="metric-icon">✦</span><div><strong>{{ estilos }}</strong><small>Estilos disponibles</small></div></article>
+        </div>
+
+        <article class="home-panel yarn-corner">
+          <h3>Accesos rápidos</h3>
+          <div class="quick-grid">
+            <button class="quick-card nav-shortcut" data-go="prediccion"><b>◈</b><span><strong>Predicción general</strong><small>Realiza una nueva predicción</small></span></button>
+            <button class="quick-card nav-shortcut" data-go="color-estilo"><b>↗</b><span><strong>Análisis de tendencias</strong><small>Explora colores y estilos</small></span></button>
+            <button class="quick-card nav-shortcut" data-go="dashboard"><b>▥</b><span><strong>Dashboard</strong><small>Visualiza resultados y gráficos</small></span></button>
+            <button class="quick-card nav-shortcut" data-go="senales"><b>⌘</b><span><strong>Señales digitales</strong><small>Consulta las señales disponibles</small></span></button>
+          </div>
+        </article>
+
+        <article class="home-panel flow-panel yarn-corner">
+          <h3>Flujo del sistema</h3>
+          <div class="system-flow">
+            <div><b>▤</b><span>Histórico</span></div><i>→</i>
+            <div><b>▦</b><span>Modelo</span></div><i>→</i>
+            <div><b>⬡</b><span>Reglas de negocio</span></div><i>→</i>
+            <div><b>⌁</b><span>Señales digitales</span></div><i>→</i>
+            <div><b>↗</b><span>Predicción</span></div>
+          </div>
+        </article>
+      </section>
+
+      <section id="prediccion" class="section">
+        <div class="section-heading section-heading-action">
+          <div><h2>Predicción General</h2><p>Obtén la mejor combinación de prenda, colores y estilo para un mes específico.</p></div>
+          <button type="button" class="btn btn-new-prediction" id="newPredictionBtn"><span>＋</span> Nueva Predicción</button>
+        </div>
+        <div class="prediction-workspace">
+          <aside class="prediction-control-column">
+            <form id="generalForm" class="filter-card prediction-params-card">
+              <h3>Parámetros de predicción</h3>
+              <div class="form-grid prediction-stack">
+                <div class="prediction-advanced"><label>Año</label><select id="generalAno" name="ano"></select></div>
+                <div><label>Mes a predecir</label><select id="generalMes" name="mes"></select></div>
+                <div class="prediction-advanced"><label>Ciudad</label><select id="generalCiudad" name="ciudad"></select></div>
+                <div class="prediction-signal-mode">
+                  <label>Señales digitales</label>
+                  <select id="generalModoSenal" name="modo_senal">
+                    <option value="cache">Usar caché guardado</option>
+                    <option value="auto" selected>buscar señales</option>
+                  </select>
+                  <small class="signal-mode-help">Si el mes ya tiene señales guardadas se reutilizan, si no existen se consulta señales una sola vez y guarda el resultado.</small>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary btn-generate"><span>◉</span> Generar Predicción <span>✦</span></button>
+            </form>
+            <article class="system-status-card yarn-corner">
+              <h3>Estado del sistema</h3>
+              <p><i></i> Modelo: {{ modelo_nombre }}</p>
+              <p><i></i> Señales digitales disponibles</p>
+            </article>
+          </aside>
+          <div id="generalResult" class="result-zone prediction-result-column"></div>
+        </div>
+      </section>
+
+      <section id="color-estilo" class="section">
+        <div class="section-heading section-heading-toolbar">
+          <div><h2>Análisis de Tendencias</h2><p>Análisis detallado de tendencias por prenda, colores y estilos.</p></div>
+          <form id="specificForm" class="mockup-toolbar">
+            <div class="hidden-control"><select id="specificAno" name="ano"></select></div>
+            <div class="toolbar-select"><select id="specificMes" name="mes" aria-label="Mes para analizar"></select></div>
+            <div class="hidden-control"><select id="specificCiudad" name="ciudad"></select></div>
+            <button type="submit" class="visually-hidden-submit" aria-label="Analizar tendencias">Analizar</button>
+          </form>
+        </div>
+        <div id="specificResult" class="result-zone"></div>
+      </section>
+
+      <section id="historial" class="section">
+        <div class="section-heading section-heading-toolbar">
+          <div><h2>Historial de Predicciones</h2><p>Consulta las predicciones generadas anteriormente.</p></div>
+          <form id="historyForm" class="mockup-toolbar history-toolbar">
+            <div class="hidden-control"><select id="historyAno" name="ano"></select></div>
+            <div class="toolbar-select"><select id="historyMes" name="mes" aria-label="Filtrar historial por mes"></select></div>
+            <div class="hidden-control"><select id="historyCiudad" name="ciudad"></select></div>
+            <button type="submit" class="visually-hidden-submit" aria-label="Consultar historial">Consultar</button>
+            <a id="exportPdf" href="#" class="btn btn-secondary toolbar-export">Exportar ↓</a>
+            <a id="exportCsv" href="#" class="hidden-export">CSV</a>
+          </form>
+        </div>
+        <div id="historyResult" class="result-zone"></div>
+      </section>
+
+      <section id="dashboard" class="section">
+        <div class="section-heading section-heading-toolbar">
+          <div><h2>Dashboard Analítico</h2><p>Visualiza métricas, distribución y evolución de las predicciones generadas.</p></div>
+          <form id="dashboardForm" class="mockup-toolbar">
+            <div class="hidden-control"><select id="dashboardAno" name="ano"></select></div>
+            <div class="toolbar-select"><select id="dashboardMes" name="mes" aria-label="Periodo del dashboard"></select></div>
+            <div class="hidden-control"><select id="dashboardCiudad" name="ciudad"></select></div>
+            <button type="submit" class="visually-hidden-submit" aria-label="Actualizar dashboard">Actualizar</button>
+          </form>
+        </div>
+        <div id="dashboardResult" class="result-zone"></div>
+      </section>
+
+      <section id="senales" class="section">
+        <div class="section-heading section-heading-toolbar">
+          <div><h2>Señales Digitales</h2><p>Señales de tendencias utilizadas para apoyar colores y estilos.</p></div>
+          <form id="signalsForm" class="mockup-toolbar signals-toolbar">
+            <div class="hidden-control"><select id="signalsAno" name="ano"></select></div>
+            <div class="toolbar-select"><select id="signalsMes" name="mes" aria-label="Mes de señales"></select></div>
+            <div class="hidden-control"><select id="signalsCiudad" name="ciudad"></select></div>
+            <button type="submit" class="visually-hidden-submit" aria-label="Consultar señales">Consultar</button>
+            <button type="button" id="refreshTrends" class="btn btn-primary toolbar-refresh">↻ Actualizar señales</button>
+            <button type="button" id="clearSignals" class="btn btn-quiet-cache" title="Borrar el caché del periodo seleccionado">Limpiar caché</button>
+          </form>
+        </div>
+        <div id="signalsResult" class="result-zone"></div>
+      </section>
+
+      <footer class="app-footer">Lana ML © 2026 | La Paz · El Alto, Bolivia</footer>
+    </main>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script>
+    window.STATIC_PREFIX = {{ url_for('static', filename='') | tojson }};
+  </script>
+  <script src="{{ url_for('static', filename='js/app.js') }}?v=20260825-trends-plan-signals"></script>
+</body>
+</html>

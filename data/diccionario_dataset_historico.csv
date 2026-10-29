@@ -1,0 +1,13 @@
+﻿columna,descripcion
+id,Identificador interno del registro histórico.
+ano,"Año del registro histórico: 2024, 2025 o 2026."
+mes,Mes del registro histórico. Para 2026 solo se incluye enero a mayo.
+ciudad,Ciudad del contexto paceño: La Paz o El Alto.
+zona_comercial,Zona comercial donde se contextualiza la demanda.
+tipo_prenda,Prenda de lana evaluada. El dataset corregido contiene 13 prendas válidas. No existe chaleco escolar ni chaleco militar; los chalecos solo corresponden a hombre o mujer.
+cliente_principal,"Segmento principal asociado a la prenda: mujer, hombre, escolar, profesional, militar o general."
+tipo_cliente,"Tipo de cliente o segmento: general, mujer, hombre, escolar, profesional, militar."
+color,Color principal de la tendencia histórica.
+estilo,"Estilo de la prenda. Solo se manejan 5 estilos: formal, casual, artesanal, urbano y funcional."
+motivo_comercial,Motivo comercial o temporal asociado al comportamiento de demanda.
+demanda_clase,"Variable objetivo para clasificación: Alta, Media o Baja."

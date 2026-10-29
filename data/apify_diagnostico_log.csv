@@ -1,0 +1,266 @@
+﻿fecha,estado,plataforma,actor_id,status_code,query,detalle,url
+2026-08-22T15:16:34,INTENTANDO,instagram,apify~instagram-search-scraper,,moda lana Bolivia La Paz,"Payload={'search': 'moda lana Bolivia La Paz', 'searchType': 'popular', 'searchLimit': 8}",https://api.apify.com/v2/acts/apify~instagram-search-scraper/run-sync-get-dataset-items
+://api.apify.com/v2/acts/clockworks~tiktok-scraper/run-sync-get-dataset-items,,,,,,,
+2026-08-22T15:16:40,ERROR_HTTP,instagram,apify~instagram-search-scraper,400.0,moda lana Bolivia La Paz,"{
+  ""error"": {
+    ""type"": ""run-failed"",
+    ""message"": ""Actor run did not succeed (run ID: JsFrBu9qbmYlQSaEl, status: FAILED).""
+  }
+}",https://api.apify.com/v2/acts/apify~instagram-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:16:47,OK,tiktok,clockworks~tiktok-scraper,201.0,moda lana Bolivia La Paz,Items=8 score=82,https://api.apify.com/v2/acts/clockworks~tiktok-scraper/run-sync-get-dataset-items
+2026-08-22T15:18:43,SIN_DATOS,pinterest,easyapi~pinterest-search-scraper,201.0,ropa de lana Bolivia La Paz,El actor terminó correctamente pero devolvió 0 elementos.,https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:18:43,INTENTANDO,pinterest,easyapi~pinterest-search-scraper,,colores moda lana Bolivia La Paz,"Payload={'query': 'colores moda lana Bolivia La Paz', 'filter': 'all', 'limit': 20}",https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:20:48,SIN_DATOS,pinterest,easyapi~pinterest-search-scraper,201.0,colores moda lana Bolivia La Paz,El actor terminó correctamente pero devolvió 0 elementos.,https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:20:48,INTENTANDO,tiktok,clockworks~tiktok-scraper,,moda lana Bolivia El Alto,"Payload={'searchQueries': ['moda lana Bolivia El Alto'], 'searchSection': '/video', 'resultsPerPage': 8, 'videoSearchSorting': 'MOST_RELEVANT', 'videoSearchDateFilter': 'PAST_MONTH'}",https://api.apify.com/v2/acts/clockworks~tiktok-scraper/run-sync-get-dataset-items
+2026-08-22T15:20:53,ERROR_HTTP,instagram,apify~instagram-search-scraper,400.0,moda lana Bolivia El Alto,"{
+  ""error"": {
+    ""type"": ""run-failed"",
+    ""message"": ""Actor run did not succeed (run ID: l76YP420Mpx4RH2qF, status: FAILED).""
+  }
+}",https://api.apify.com/v2/acts/apify~instagram-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:21:30,OK,tiktok,clockworks~tiktok-scraper,201.0,moda lana Bolivia El Alto,Items=8 score=82,https://api.apify.com/v2/acts/clockworks~tiktok-scraper/run-sync-get-dataset-items
+2026-08-22T15:23:07,SIN_DATOS,pinterest,easyapi~pinterest-search-scraper,201.0,ropa de lana Bolivia El Alto,El actor terminó correctamente pero devolvió 0 elementos.,https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:23:07,INTENTANDO,pinterest,easyapi~pinterest-search-scraper,,colores moda lana Bolivia El Alto,"Payload={'query': 'colores moda lana Bolivia El Alto', 'filter': 'all', 'limit': 20}",https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:25:19,SIN_DATOS,pinterest,easyapi~pinterest-search-scraper,201.0,colores moda lana Bolivia El Alto,El actor terminó correctamente pero devolvió 0 elementos.,https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:27:33,INTENTANDO,instagram,apify~instagram-search-scraper,,moda lana Bolivia El Alto,"Payload={'search': 'moda lana Bolivia El Alto', 'searchType': 'popular', 'searchLimit': 8}",https://api.apify.com/v2/acts/apify~instagram-search-scraper/run-sync-get-dataset-items
+://api.apify.com/v2/acts/clockworks~tiktok-scraper/run-sync-get-dataset-items,,,,,,,
+2026-08-22T15:27:38,ERROR_HTTP,instagram,apify~instagram-search-scraper,400.0,moda lana Bolivia El Alto,"{
+  ""error"": {
+    ""type"": ""run-failed"",
+    ""message"": ""Actor run did not succeed (run ID: o3sBblYRekEceyExT, status: FAILED).""
+  }
+}",https://api.apify.com/v2/acts/apify~instagram-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:27:45,OK,tiktok,clockworks~tiktok-scraper,201.0,moda lana Bolivia El Alto,Items=8 score=85,https://api.apify.com/v2/acts/clockworks~tiktok-scraper/run-sync-get-dataset-items
+2026-08-22T15:29:19,SIN_DATOS,pinterest,easyapi~pinterest-search-scraper,201.0,ropa de lana Bolivia El Alto,El actor terminó correctamente pero devolvió 0 elementos.,https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:29:19,INTENTANDO,pinterest,easyapi~pinterest-search-scraper,,colores moda lana Bolivia El Alto,"Payload={'query': 'colores moda lana Bolivia El Alto', 'filter': 'all', 'limit': 20}",https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:31:03,SIN_DATOS,pinterest,easyapi~pinterest-search-scraper,201.0,colores moda lana Bolivia El Alto,El actor terminó correctamente pero devolvió 0 elementos.,https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:31:03,INTENTANDO,instagram,apify~instagram-search-scraper,,moda lana Bolivia La Paz,"Payload={'search': 'moda lana Bolivia La Paz', 'searchType': 'popular', 'searchLimit': 8}",https://api.apify.com/v2/acts/apify~instagram-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:31:08,ERROR_HTTP,instagram,apify~instagram-search-scraper,400.0,moda lana Bolivia La Paz,"{
+  ""error"": {
+    ""type"": ""run-failed"",
+    ""message"": ""Actor run did not succeed (run ID: zwWcBvLyMjq8oEIhy, status: FAILED).""
+  }
+}",https://api.apify.com/v2/acts/apify~instagram-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:31:17,OK,tiktok,clockworks~tiktok-scraper,201.0,moda lana Bolivia La Paz,Items=8 score=85,https://api.apify.com/v2/acts/clockworks~tiktok-scraper/run-sync-get-dataset-items
+2026-08-22T15:33:14,SIN_DATOS,pinterest,easyapi~pinterest-search-scraper,201.0,ropa de lana Bolivia La Paz,El actor terminó correctamente pero devolvió 0 elementos.,https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:33:14,INTENTANDO,pinterest,easyapi~pinterest-search-scraper,,colores moda lana Bolivia La Paz,"Payload={'query': 'colores moda lana Bolivia La Paz', 'filter': 'all', 'limit': 20}",https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:34:59,SIN_DATOS,pinterest,easyapi~pinterest-search-scraper,201.0,colores moda lana Bolivia La Paz,El actor terminó correctamente pero devolvió 0 elementos.,https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:38:55,INTENTANDO,instagram,apify~instagram-search-scraper,,moda lana Bolivia El Alto,"Payload={'search': 'moda lana Bolivia El Alto', 'searchType': 'popular', 'searchLimit': 8}",https://api.apify.com/v2/acts/apify~instagram-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:38:59,ERROR_HTTP,instagram,apify~instagram-search-scraper,400.0,moda lana Bolivia El Alto,"{
+  ""error"": {
+    ""type"": ""run-failed"",
+    ""message"": ""Actor run did not succeed (run ID: HMpVd5kQtKVQggr9V, status: FAILED).""
+  }
+}",https://api.apify.com/v2/acts/apify~instagram-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:39:14,OK,tiktok,clockworks~tiktok-scraper,201.0,moda lana Bolivia El Alto,Items=8 score=88,https://api.apify.com/v2/acts/clockworks~tiktok-scraper/run-sync-get-dataset-items
+2026-08-22T15:40:48,SIN_DATOS,pinterest,easyapi~pinterest-search-scraper,201.0,ropa de lana Bolivia El Alto,El actor terminó correctamente pero devolvió 0 elementos.,https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:40:48,INTENTANDO,pinterest,easyapi~pinterest-search-scraper,,colores moda lana Bolivia El Alto,"Payload={'query': 'colores moda lana Bolivia El Alto', 'filter': 'all', 'limit': 20}",https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:42:30,SIN_DATOS,pinterest,easyapi~pinterest-search-scraper,201.0,colores moda lana Bolivia El Alto,El actor terminó correctamente pero devolvió 0 elementos.,https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:42:30,INTENTANDO,tiktok,clockworks~tiktok-scraper,,moda lana Bolivia La Paz,"Payload={'searchQueries': ['moda lana Bolivia La Paz'], 'searchSection': '/video', 'resultsPerPage': 8, 'videoSearchSorting': 'MOST_RELEVANT', 'videoSearchDateFilter': 'PAST_MONTH'}",https://api.apify.com/v2/acts/clockworks~tiktok-scraper/run-sync-get-dataset-items
+2026-08-22T15:42:36,ERROR_HTTP,instagram,apify~instagram-search-scraper,400.0,moda lana Bolivia La Paz,"{
+  ""error"": {
+    ""type"": ""run-failed"",
+    ""message"": ""Actor run did not succeed (run ID: vvwLfU6s7g1SxHnrb, status: FAILED).""
+  }
+}",https://api.apify.com/v2/acts/apify~instagram-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:42:44,OK,tiktok,clockworks~tiktok-scraper,201.0,moda lana Bolivia La Paz,Items=8 score=85,https://api.apify.com/v2/acts/clockworks~tiktok-scraper/run-sync-get-dataset-items
+2026-08-22T15:44:15,SIN_DATOS,pinterest,easyapi~pinterest-search-scraper,201.0,ropa de lana Bolivia La Paz,El actor terminó correctamente pero devolvió 0 elementos.,https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:44:15,INTENTANDO,pinterest,easyapi~pinterest-search-scraper,,colores moda lana Bolivia La Paz,"Payload={'query': 'colores moda lana Bolivia La Paz', 'filter': 'all', 'limit': 20}",https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-22T15:46:29,SIN_DATOS,pinterest,easyapi~pinterest-search-scraper,201.0,colores moda lana Bolivia La Paz,El actor terminó correctamente pero devolvió 0 elementos.,https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-25T13:35:40,MODO_CACHE,,,,ropa de lana color negro estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:35:40,MODO_CACHE,,,,ropa de lana color morado estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:35:40,MODO_CACHE,,,,ropa de lana color gris estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:35:40,MODO_CACHE,,,,ropa de lana color guindo estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:35:40,MODO_CACHE,,,,ropa de lana color rojo estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:35:40,MODO_CACHE,,,,ropa de lana color azul marino estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:35:40,MODO_CACHE,,,,ropa de lana color blanco estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:35:40,MODO_CACHE,,,,ropa de lana color celeste estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:35:40,MODO_CACHE,,,,ropa de lana color mostaza estilo casual lana alpaca tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:35:40,MODO_CACHE,,,,ropa de lana color gris estilo casual lana alpaca tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:35:40,MODO_CACHE,,,,ropa de lana color blanco estilo casual lana alpaca tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:35:40,MODO_CACHE,,,,ropa de lana color azul marino estilo casual lana alpaca tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:35:40,MODO_CACHE,,,,ropa de lana color negro estilo casual lana alpaca tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:35:40,MODO_CACHE,,,,ropa de lana color gris estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:35:40,MODO_CACHE,,,,ropa de lana color negro estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:35:40,MODO_CACHE,,,,ropa de lana color rosado estilo formal lana oveja tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:35:40,MODO_CACHE,,,,ropa de lana color gris estilo formal lana oveja tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:35:40,MODO_CACHE,,,,ropa de lana color blanco estilo formal lana oveja tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:35:40,MODO_CACHE,,,,ropa de lana color verde militar estilo formal lana oveja tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:35:40,MODO_CACHE,,,,ropa de lana color negro estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:35:41,MODO_CACHE,,,,ropa de lana color rojo estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:35:41,MODO_CACHE,,,,ropa de lana color negro estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:35:41,MODO_CACHE,,,,ropa de lana color gris estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:35:41,MODO_CACHE,,,,ropa de lana color blanco estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:35:41,MODO_CACHE,,,,ropa de lana color mostaza estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:44,MODO_CACHE,,,,ropa de lana color beige estilo formal lana alpaca tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:44,MODO_CACHE,,,,ropa de lana color rosado estilo formal lana alpaca tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:44,MODO_CACHE,,,,ropa de lana color crema estilo formal lana alpaca tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:44,MODO_CACHE,,,,ropa de lana color azul marino estilo formal lana alpaca tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:44,MODO_CACHE,,,,ropa de lana color cafe estilo formal lana alpaca tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:44,MODO_CACHE,,,,ropa de lana color crema estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:44,MODO_CACHE,,,,ropa de lana color beige estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:44,MODO_CACHE,,,,ropa de lana color rosado estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:44,MODO_CACHE,,,,ropa de lana color azul marino estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:45,MODO_CACHE,,,,ropa de lana color gris estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:45,MODO_CACHE,,,,ropa de lana color beige estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:45,MODO_CACHE,,,,ropa de lana color rosado estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:45,MODO_CACHE,,,,ropa de lana color azul marino estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:45,MODO_CACHE,,,,ropa de lana color gris estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:45,MODO_CACHE,,,,ropa de lana color crema estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:45,MODO_CACHE,,,,ropa de lana color rosado estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:45,MODO_CACHE,,,,ropa de lana color azul marino estilo casual lana alpaca tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:45,MODO_CACHE,,,,ropa de lana color verde militar estilo casual lana alpaca tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:45,MODO_CACHE,,,,ropa de lana color rojo estilo casual lana alpaca tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:45,MODO_CACHE,,,,ropa de lana color beige estilo casual lana alpaca tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:45,MODO_CACHE,,,,ropa de lana color crema estilo casual lana alpaca tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:45,MODO_CACHE,,,,ropa de lana color cafe estilo casual lana alpaca tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:45,MODO_CACHE,,,,ropa de lana color gris estilo casual lana alpaca tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:45,MODO_CACHE,,,,ropa de lana color beige estilo artesanal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:41:45,MODO_CACHE,,,,ropa de lana color gris estilo artesanal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color beige estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color cafe estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color mostaza estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color morado estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color gris estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color mostaza estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color cafe estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color gris estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color rosado estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color morado estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color beige estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color rosado estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color azul marino estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color cafe estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color beige estilo artesanal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color crema estilo artesanal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color mostaza estilo artesanal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color gris estilo artesanal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color morado estilo artesanal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color beige estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color rojo estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color gris estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color crema estilo funcional lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color cafe estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:25,MODO_CACHE,,,,ropa de lana color mostaza estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:55,MODO_CACHE,,,,ropa de lana color beige estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:55,MODO_CACHE,,,,ropa de lana color rojo estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:55,MODO_CACHE,,,,ropa de lana color blanco estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:56,MODO_CACHE,,,,ropa de lana color negro estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:56,MODO_CACHE,,,,ropa de lana color crema estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:56,MODO_CACHE,,,,ropa de lana color rosado estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:56,MODO_CACHE,,,,ropa de lana color guindo estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:56,MODO_CACHE,,,,ropa de lana color crema estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:56,MODO_CACHE,,,,ropa de lana color blanco estilo urbano lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:56,MODO_CACHE,,,,ropa de lana color beige estilo casual lana alpaca tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:56,MODO_CACHE,,,,ropa de lana color rojo estilo casual lana alpaca tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:56,MODO_CACHE,,,,ropa de lana color mostaza estilo casual lana alpaca tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:56,MODO_CACHE,,,,ropa de lana color crema estilo artesanal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:56,MODO_CACHE,,,,ropa de lana color beige estilo artesanal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:56,MODO_CACHE,,,,ropa de lana color rojo estilo artesanal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:56,MODO_CACHE,,,,ropa de lana color blanco estilo artesanal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:56,MODO_CACHE,,,,ropa de lana color gris estilo artesanal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:56,MODO_CACHE,,,,ropa de lana color rojo estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:56,MODO_CACHE,,,,ropa de lana color beige estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:56,MODO_CACHE,,,,ropa de lana color blanco estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:56,MODO_CACHE,,,,ropa de lana color crema estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:56,MODO_CACHE,,,,ropa de lana color negro estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:56,MODO_CACHE,,,,ropa de lana color blanco estilo artesanal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:56,MODO_CACHE,,,,ropa de lana color rojo estilo artesanal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T13:42:56,MODO_CACHE,,,,ropa de lana color beige estilo artesanal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T15:53:36,INTENTANDO,tiktok,clockworks~tiktok-scraper,,moda lana Bolivia La Paz,"Payload={'searchQueries': ['moda lana Bolivia La Paz'], 'searchSection': '/video', 'resultsPerPage': 8, 'videoSearchSorting': 'MOST_RELEVANT', 'videoSearchDateFilter': 'PAST_MONTH'}",https://api.apify.com/v2/acts/clockworks~tiktok-scraper/run-sync-get-dataset-items
+2026-08-25T15:53:41,ERROR_HTTP,instagram,apify~instagram-search-scraper,400.0,moda lana Bolivia La Paz,"{
+  ""error"": {
+    ""type"": ""run-failed"",
+    ""message"": ""Actor run did not succeed (run ID: c73WMRCT6xf0c9SLE, status: FAILED).""
+  }
+}",https://api.apify.com/v2/acts/apify~instagram-search-scraper/run-sync-get-dataset-items
+2026-08-25T15:53:48,OK,tiktok,clockworks~tiktok-scraper,201.0,moda lana Bolivia La Paz,Items=8 score=82,https://api.apify.com/v2/acts/clockworks~tiktok-scraper/run-sync-get-dataset-items
+2026-08-25T15:55:23,SIN_DATOS,pinterest,easyapi~pinterest-search-scraper,201.0,ropa de lana Bolivia La Paz,El actor terminó correctamente pero devolvió 0 elementos.,https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-25T15:55:23,INTENTANDO,pinterest,easyapi~pinterest-search-scraper,,colores moda lana Bolivia La Paz,"Payload={'query': 'colores moda lana Bolivia La Paz', 'filter': 'all', 'limit': 20}",https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-25T15:57:35,SIN_DATOS,pinterest,easyapi~pinterest-search-scraper,201.0,colores moda lana Bolivia La Paz,El actor terminó correctamente pero devolvió 0 elementos.,https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-25T15:57:35,INTENTANDO,pinterest,easyapi~pinterest-search-scraper,,ropa de lana Bolivia El Alto,"Payload={'query': 'ropa de lana Bolivia El Alto', 'filter': 'all', 'limit': 20}",https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+ms,,,,,,,
+://api.apify.com/v2/acts/clockworks~tiktok-scraper/run-sync-get-dataset-items,,,,,,,
+2026-08-25T15:57:39,ERROR_HTTP,instagram,apify~instagram-search-scraper,400.0,moda lana Bolivia El Alto,"{
+  ""error"": {
+    ""type"": ""run-failed"",
+    ""message"": ""Actor run did not succeed (run ID: DnY3IM7q5BlvmnehY, status: FAILED).""
+  }
+}",https://api.apify.com/v2/acts/apify~instagram-search-scraper/run-sync-get-dataset-items
+2026-08-25T15:57:46,OK,tiktok,clockworks~tiktok-scraper,201.0,moda lana Bolivia El Alto,Items=8 score=76,https://api.apify.com/v2/acts/clockworks~tiktok-scraper/run-sync-get-dataset-items
+2026-08-25T15:59:22,SIN_DATOS,pinterest,easyapi~pinterest-search-scraper,201.0,ropa de lana Bolivia El Alto,El actor terminó correctamente pero devolvió 0 elementos.,https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-25T15:59:22,INTENTANDO,pinterest,easyapi~pinterest-search-scraper,,colores moda lana Bolivia El Alto,"Payload={'query': 'colores moda lana Bolivia El Alto', 'filter': 'all', 'limit': 20}",https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-25T16:01:29,SIN_DATOS,pinterest,easyapi~pinterest-search-scraper,201.0,colores moda lana Bolivia El Alto,El actor terminó correctamente pero devolvió 0 elementos.,https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-25T18:54:23,INTENTANDO,instagram,apify~instagram-search-scraper,,moda lana Bolivia La Paz,"Payload={'search': 'moda lana Bolivia La Paz', 'searchType': 'popular', 'searchLimit': 8}",https://api.apify.com/v2/acts/apify~instagram-search-scraper/run-sync-get-dataset-items
+://api.apify.com/v2/acts/clockworks~tiktok-scraper/run-sync-get-dataset-items,,,,,,,
+2026-08-25T18:54:27,ERROR_HTTP,instagram,apify~instagram-search-scraper,400.0,moda lana Bolivia La Paz,"{
+  ""error"": {
+    ""type"": ""run-failed"",
+    ""message"": ""Actor run did not succeed (run ID: SyOqnUKxcGXFafgVm, status: FAILED).""
+  }
+}",https://api.apify.com/v2/acts/apify~instagram-search-scraper/run-sync-get-dataset-items
+2026-08-25T18:54:31,MODO_CACHE,,,,ropa de lana color blanco estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T18:54:33,OK,tiktok,clockworks~tiktok-scraper,201.0,moda lana Bolivia La Paz,Items=8 score=82,https://api.apify.com/v2/acts/clockworks~tiktok-scraper/run-sync-get-dataset-items
+2026-08-25T18:56:07,MODO_CACHE,,,,ropa de lana color azul marino estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T18:56:32,SIN_DATOS,pinterest,easyapi~pinterest-search-scraper,201.0,ropa de lana Bolivia La Paz,El actor terminó correctamente pero devolvió 0 elementos.,https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-25T18:56:32,INTENTANDO,pinterest,easyapi~pinterest-search-scraper,,colores moda lana Bolivia La Paz,"Payload={'query': 'colores moda lana Bolivia La Paz', 'filter': 'all', 'limit': 20}",https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-25T18:57:51,MODO_CACHE,,,,ropa de lana color rosado estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-25T18:58:36,SIN_DATOS,pinterest,easyapi~pinterest-search-scraper,201.0,colores moda lana Bolivia La Paz,El actor terminó correctamente pero devolvió 0 elementos.,https://api.apify.com/v2/acts/easyapi~pinterest-search-scraper/run-sync-get-dataset-items
+2026-08-28T16:13:27,MODO_CACHE,,,,ropa de lana color crema estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:13:27,MODO_CACHE,,,,ropa de lana color beige estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:13:27,MODO_CACHE,,,,ropa de lana color guindo estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:13:28,MODO_CACHE,,,,ropa de lana color celeste estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:13:28,MODO_CACHE,,,,ropa de lana color verde militar estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:13:28,MODO_CACHE,,,,ropa de lana color beige estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:13:28,MODO_CACHE,,,,ropa de lana color rojo estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:13:28,MODO_CACHE,,,,ropa de lana color azul marino estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:13:28,MODO_CACHE,,,,ropa de lana color cafe estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:13:28,MODO_CACHE,,,,ropa de lana color gris estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:13:28,MODO_CACHE,,,,ropa de lana color crema estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:13:28,MODO_CACHE,,,,ropa de lana color beige estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:13:28,MODO_CACHE,,,,ropa de lana color crema estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:08,MODO_CACHE,,,,ropa de lana color gris estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:08,MODO_CACHE,,,,ropa de lana color morado estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:08,MODO_CACHE,,,,ropa de lana color negro estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:08,MODO_CACHE,,,,ropa de lana color negro estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:08,MODO_CACHE,,,,ropa de lana color beige estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:08,MODO_CACHE,,,,ropa de lana color beige estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:08,MODO_CACHE,,,,ropa de lana color blanco estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:08,MODO_CACHE,,,,ropa de lana color azul marino estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:09,MODO_CACHE,,,,ropa de lana color gris estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:09,MODO_CACHE,,,,ropa de lana color guindo estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:09,MODO_CACHE,,,,ropa de lana color azul marino estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:09,MODO_CACHE,,,,ropa de lana color morado estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:09,MODO_CACHE,,,,ropa de lana color negro estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:09,MODO_CACHE,,,,ropa de lana color beige estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:09,MODO_CACHE,,,,ropa de lana color beige estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:09,MODO_CACHE,,,,ropa de lana color rojo estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:09,MODO_CACHE,,,,ropa de lana color gris estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:09,MODO_CACHE,,,,ropa de lana color morado estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:09,MODO_CACHE,,,,ropa de lana color azul marino estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:09,MODO_CACHE,,,,ropa de lana color negro estilo casual lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:09,MODO_CACHE,,,,ropa de lana color azul marino estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:09,MODO_CACHE,,,,ropa de lana color gris estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:09,MODO_CACHE,,,,ropa de lana color caqui estilo formal lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:09,MODO_CACHE,,,,ropa de lana color beige estilo urbano lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-08-28T16:15:10,MODO_CACHE,,,,ropa de lana color rojo estilo urbano lana tendencia moda Bolivia La Paz El Alto,Se usó modo caché/local desde la interfaz; no se consultó Apify.,
+2026-10-10T17:25:43,INTENTANDO,instagram,apify~instagram-search-scraper,,moda lana Bolivia El Alto,"Iniciando actor. Payload={'search': 'moda lana Bolivia El Alto', 'searchType': 'popular', 'searchLimit': 8}",https://api.apify.com/v2/acts/apify~instagram-search-scraper/runs
+": 'PAST_MONTH'}""",https://api.apify.com/v2/acts/clockworks~tiktok-scraper/runs,,,,,,
+2026-10-10T17:26:01,ERROR_ACTOR,instagram,apify~instagram-search-scraper,FAILED,moda lana Bolivia El Alto,Run OP4kddlZHobNPszNG terminó en FAILED. Revisar su log en Apify.,https://api.apify.com/v2/actor-runs/OP4kddlZHobNPszNG
+2026-10-10T17:26:03,OK,pinterest,memo23~pinterest-scraper,200,chompas de lana,Run=F3xM6b4ZTkUYnCimM Items=20 score=96,https://api.apify.com/v2/datasets/In0bivCpjNfANYtfA/items
+2026-10-10T17:27:40,OK,tiktok,clockworks~tiktok-scraper,200,moda lana Bolivia El Alto,Run=ofWxcq7W01ocTRkwC Items=8 score=79,https://api.apify.com/v2/datasets/C3HUeZx3vh1lMtGrN/items
+2026-10-10T17:31:34,INTENTANDO,instagram,apify~instagram-search-scraper,,moda lana Bolivia El Alto,"Iniciando actor. Payload={'search': 'moda lana Bolivia El Alto', 'searchType': 'popular', 'searchLimit': 8}",https://api.apify.com/v2/acts/apify~instagram-search-scraper/runs
+2026-10-10T17:31:52,ERROR_ACTOR,instagram,apify~instagram-search-scraper,FAILED,moda lana Bolivia El Alto,Run Pn2aQbhAUxygKloba terminó en FAILED. Revisar su log en Apify.,https://api.apify.com/v2/actor-runs/Pn2aQbhAUxygKloba
+2026-10-10T17:31:55,OK,pinterest,memo23~pinterest-scraper,200,chompas de lana,Run=ntCtgfIBH87cF22m7 Items=20 score=93,https://api.apify.com/v2/datasets/da4gjp8k0b2ftbFNS/items
+2026-10-10T17:33:48,OK,tiktok,clockworks~tiktok-scraper,200,moda lana Bolivia El Alto,Run=cTQmkaeuIfENbxTUz Items=8 score=88,https://api.apify.com/v2/datasets/rmPue8zxvSkrfuUOi/items
+2026-10-10T17:35:53,INTENTANDO,instagram,apify~instagram-search-scraper,,moda lana Bolivia El Alto,"Iniciando actor. Payload={'search': 'moda lana Bolivia El Alto', 'searchType': 'popular', 'searchLimit': 8}",https://api.apify.com/v2/acts/apify~instagram-search-scraper/runs
+": 'PAST_MONTH'}""",https://api.apify.com/v2/acts/clockworks~tiktok-scraper/runs,,,,,,
+2026-10-10T17:36:11,ERROR_ACTOR,instagram,apify~instagram-search-scraper,FAILED,moda lana Bolivia El Alto,Run cyszgKbhp7VGdYKx6 terminó en FAILED. Revisar su log en Apify.,https://api.apify.com/v2/actor-runs/cyszgKbhp7VGdYKx6
+2026-10-10T17:36:29,OK,pinterest,memo23~pinterest-scraper,200,chompas de lana,Run=9CKjZEZZR566vppJP Items=20 score=93,https://api.apify.com/v2/datasets/1gEPSBzGL2P0E5DSl/items
+2026-10-10T17:36:46,OK,tiktok,clockworks~tiktok-scraper,200,moda lana Bolivia El Alto,Run=VOjIeGO9x14yyQN21 Items=8 score=82,https://api.apify.com/v2/datasets/Zgj3UDDXqmdOiWsiG/items
+2026-10-10T17:36:46,INTENTANDO,pinterest,memo23~pinterest-scraper,,chompas de lana,"Iniciando actor. Payload={'searchQueries': ['chompas de lana'], 'searchScope': 'pins', 'maxItems': 20}",https://api.apify.com/v2/acts/memo23~pinterest-scraper/runs
+ram-search-scraper/runs,,,,,,,
+": 'PAST_MONTH'}""",https://api.apify.com/v2/acts/clockworks~tiktok-scraper/runs,,,,,,
+2026-10-10T17:37:04,ERROR_ACTOR,instagram,apify~instagram-search-scraper,FAILED,moda lana Bolivia La Paz,Run OJrrYEyhgIh3urgmN terminó en FAILED. Revisar su log en Apify.,https://api.apify.com/v2/actor-runs/OJrrYEyhgIh3urgmN
+2026-10-10T17:37:06,OK,pinterest,memo23~pinterest-scraper,200,chompas de lana,Run=yTmsvFQ451ro7Sxbw Items=20 score=96,https://api.apify.com/v2/datasets/DBigLtcaBja3YZATY/items
+2026-10-10T17:37:22,OK,tiktok,clockworks~tiktok-scraper,200,moda lana Bolivia La Paz,Run=UCoXr2GTYHdbtOwuU Items=8 score=85,https://api.apify.com/v2/datasets/h2y4OQPexBqxCZwBX/items

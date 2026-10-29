@@ -1,0 +1,11 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="220" height="220" rx="48" fill="#111827"/>
+  <circle cx="110" cy="110" r="74" fill="#F8FAFC" opacity="0.96"/>
+  <path d="M62 121C62 92 83 72 111 72C139 72 160 92 160 121C160 147 139 165 111 165C83 165 62 147 62 121Z" fill="#E7B36B"/>
+  <path d="M78 118C83 101 96 90 112 90C128 90 141 101 146 118" stroke="#111827" stroke-width="9" stroke-linecap="round"/>
+  <path d="M74 136C89 149 133 149 148 136" stroke="#111827" stroke-width="9" stroke-linecap="round"/>
+  <path d="M93 76C101 59 121 59 129 76" stroke="#E7B36B" stroke-width="14" stroke-linecap="round"/>
+  <path d="M69 101L48 88" stroke="#E7B36B" stroke-width="12" stroke-linecap="round"/>
+  <path d="M151 101L172 88" stroke="#E7B36B" stroke-width="12" stroke-linecap="round"/>
+  <text x="110" y="201" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#F8FAFC">LANA ML</text>
+</svg>

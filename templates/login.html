@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Acceso | Lana ML</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body class="login-page login-v2">
+  <main class="login-v2-shell">
+    <section class="login-v2-visual">
+      <div class="login-v2-city city-la-paz" style="background-image:url('{{ url_for('static', filename='media/ciudades/la_paz.png') }}')"></div>
+      <div class="login-v2-city city-el-alto" style="background-image:url('{{ url_for('static', filename='media/ciudades/el_alto.png') }}')"></div>
+      <div class="login-v2-overlay"></div>
+
+      <div class="login-v2-topline">
+        <span class="login-v2-pin">●</span>
+        <strong>LA PAZ · EL ALTO</strong>
+        <span>Bolivia</span>
+      </div>
+
+      <div class="login-v2-production">
+        <div class="login-v2-product-card product-card-main">
+          <img src="{{ url_for('static', filename='media/prendas/chompa_profesional.png') }}" alt="Chompa de producción textil">
+          <div><small>Producto final</small><strong>Prendas de lana</strong></div>
+        </div>
+        <div class="login-v2-product-card product-card-yarn">
+          <img src="{{ url_for('static', filename='media/lana/lana_cono.png') }}" alt="Conos de lana">
+          <div><small>Materia prima</small><strong>Color y textura</strong></div>
+        </div>
+      </div>
+
+      <div class="login-v2-brandbox">
+        <img src="{{ url_for('static', filename='img/logo_lana.svg') }}" alt="Lana ML" class="login-v2-brandlogo">
+        <div>
+          <h1>Lana <span>ML</span></h1>
+          <p>Predicción inteligente para la <strong>producción textil</strong></p>
+          <div class="login-v2-rule"><span></span><i>◆</i><span></span></div>
+          <small>Datos que orientan, producción que evoluciona.</small>
+        </div>
+      </div>
+
+      <div class="login-v2-flow" aria-label="Proceso productivo">
+        <div><b>01</b><span>Materia prima</span></div>
+        <i></i>
+        <div><b>02</b><span>Producción</span></div>
+        <i></i>
+        <div><b>03</b><span>Prenda final</span></div>
+      </div>
+    </section>
+
+    <section class="login-v2-access">
+      <div class="login-v2-card">
+        <div class="login-v2-card-logo"><img src="{{ url_for('static', filename='img/logo_lana.svg') }}" alt="Logo Lana ML"></div>
+        <p class="login-v2-eyebrow">SISTEMA DE PREDICCIÓN COMERCIAL</p>
+        <h2>Bienvenido a Lana ML</h2>
+        <p class="login-v2-intro">Accede al panel para consultar predicciones de prendas, colores, estilos y señales digitales.</p>
+        <div class="login-v2-divider"><span></span><i>◆</i><span></span></div>
+
+        {% if error %}
+        <div class="alert alert-danger">{{ error }}</div>
+        {% endif %}
+
+        <form method="post" autocomplete="off" class="login-v2-form">
+          <label for="usuario">Usuario</label>
+          <div class="login-v2-input">
+            <span class="login-v2-icon">♙</span>
+            <input id="usuario" type="text" name="usuario" placeholder="Ingrese su usuario" required autofocus>
+          </div>
+
+          <label for="password">Contraseña</label>
+          <div class="login-v2-input">
+            <span class="login-v2-icon">▣</span>
+            <input id="password" type="password" name="password" placeholder="Ingrese su contraseña" required>
+            <button type="button" class="login-v2-eye" id="togglePassword" aria-label="Mostrar contraseña">◉</button>
+          </div>
+
+          <button type="submit" class="login-v2-submit">
+            <span>Iniciar sesión</span><b>→</b>
+          </button>
+        </form>
+
+        <div class="login-v2-secure"><span>◇</span> Acceso seguro al sistema</div>
+        <div class="login-v2-caption"><span></span><p>Tecnología aplicada a la planificación de la producción textil</p><span></span></div>
+        <footer>Lana ML © 2026 <b>•</b> La Paz - El Alto, Bolivia</footer>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const passwordInput = document.getElementById('password');
+    const togglePassword = document.getElementById('togglePassword');
+    if (passwordInput && togglePassword) {
+      togglePassword.addEventListener('click', () => {
+        const hidden = passwordInput.type === 'password';
+        passwordInput.type = hidden ? 'text' : 'password';
+        togglePassword.textContent = hidden ? '◎' : '◉';
+        togglePassword.setAttribute('aria-label', hidden ? 'Ocultar contraseña' : 'Mostrar contraseña');
+      });
+    }
+  </script>
+</body>
+</html>
